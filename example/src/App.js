@@ -1,13 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import ExampleComponent from 'react-flutterish'
+import { Padding, Center } from "react-flutterish";
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
-    )
+      <Center>
+        {/* <Padding val={20}>Modern React component module</Padding> */}
+        <div style={{ height: 300, width: 300, backgroundColor: "red" }} />
+      </Center>
+    );
   }
 }
