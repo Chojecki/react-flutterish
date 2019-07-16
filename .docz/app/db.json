@@ -12,180 +12,6 @@
   },
   "props": [
     {
-      "key": "src/Column.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Column",
-          "methods": [],
-          "actualName": "Column",
-          "props": {
-            "children": {
-              "type": {
-                "name": "arrayOf",
-                "value": {
-                  "name": "element"
-                }
-              },
-              "required": false,
-              "description": ""
-            },
-            "gap": {
-              "type": {
-                "name": "number"
-              },
-              "required": false,
-              "description": ""
-            },
-            "mainAxisAlignment": {
-              "type": {
-                "name": "enum",
-                "value": [
-                  {
-                    "value": "\"flex-start\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"flex-end\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"center\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"space-between\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"space-around\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"space-evenly\"",
-                    "computed": false
-                  }
-                ]
-              },
-              "required": false,
-              "description": ""
-            },
-            "crossAxisAlignment": {
-              "type": {
-                "name": "enum",
-                "value": [
-                  {
-                    "value": "\"stretch\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"flex-end\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"center\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"flex-start\"",
-                    "computed": false
-                  }
-                ]
-              },
-              "required": false,
-              "description": ""
-            },
-            "overflow": {
-              "type": {
-                "name": "string"
-              },
-              "required": false,
-              "description": ""
-            }
-          }
-        }
-      ]
-    },
-    {
-      "key": "src/Container.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Container",
-          "methods": [],
-          "actualName": "Container",
-          "props": {
-            "height": {
-              "type": {
-                "name": "number"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "50",
-                "computed": false
-              }
-            },
-            "width": {
-              "type": {
-                "name": "number"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "50",
-                "computed": false
-              }
-            },
-            "backgroundColor": {
-              "type": {
-                "name": "string"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "\"lightGray\"",
-                "computed": false
-              }
-            },
-            "borderRadius": {
-              "type": {
-                "name": "number"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "10",
-                "computed": false
-              }
-            },
-            "shadow": {
-              "type": {
-                "name": "object"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "{\n  shadowColor: \"#590E0E0E\",\n  shadowOffset: { width: 2, height: 10 },\n  shadowRadius: 20\n}",
-                "computed": false
-              }
-            },
-            "padding": {
-              "type": {
-                "name": "number"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "0",
-                "computed": false
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
       "key": "src/Padding.js",
       "value": [
         {
@@ -208,147 +34,6 @@
               },
               "required": false,
               "description": ""
-            }
-          }
-        }
-      ]
-    },
-    {
-      "key": "src/Row.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Row",
-          "methods": [],
-          "actualName": "Row",
-          "props": {
-            "children": {
-              "type": {
-                "name": "arrayOf",
-                "value": {
-                  "name": "element"
-                }
-              },
-              "required": false,
-              "description": ""
-            },
-            "gap": {
-              "type": {
-                "name": "number"
-              },
-              "required": false,
-              "description": ""
-            },
-            "mainAxisAlignment": {
-              "type": {
-                "name": "enum",
-                "value": [
-                  {
-                    "value": "\"flex-start\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"flex-end\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"center\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"space-between\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"space-around\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"space-evenly\"",
-                    "computed": false
-                  }
-                ]
-              },
-              "required": false,
-              "description": ""
-            },
-            "crossAxisAlignment": {
-              "type": {
-                "name": "enum",
-                "value": [
-                  {
-                    "value": "\"stretch\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"flex-end\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"center\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"flex-start\"",
-                    "computed": false
-                  }
-                ]
-              },
-              "required": false,
-              "description": ""
-            },
-            "overflow": {
-              "type": {
-                "name": "string"
-              },
-              "required": false,
-              "description": ""
-            }
-          }
-        }
-      ]
-    },
-    {
-      "key": "example/src/App.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "App",
-          "methods": [],
-          "actualName": "App"
-        }
-      ]
-    },
-    {
-      "key": "src/Center.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Center",
-          "methods": [],
-          "actualName": "Center",
-          "props": {
-            "height": {
-              "type": {
-                "name": "number"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "\"100%\"",
-                "computed": false
-              }
-            },
-            "width": {
-              "type": {
-                "name": "number"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "\"100%\"",
-                "computed": false
-              }
             }
           }
         }
@@ -536,6 +221,52 @@
               "description": ""
             }
           }
+        }
+      ]
+    },
+    {
+      "key": "src/Center.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Center",
+          "methods": [],
+          "actualName": "Center",
+          "props": {
+            "height": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "0",
+                "computed": false
+              }
+            },
+            "width": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "0",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "example/src/App.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "App",
+          "methods": [],
+          "actualName": "App"
         }
       ]
     }
