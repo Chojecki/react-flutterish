@@ -21,7 +21,7 @@ npm install --save react-flutterish
 ## Basic Usage
 
 ```jsx
-import Padding from "react-flutterish";
+import { Padding } from "react-flutterish";
 
 const Component = () => (
   <Padding val={20}>
