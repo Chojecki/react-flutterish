@@ -10,7 +10,7 @@
 
 In my opinion, creating UI in Flutter famerwork is really quick and simple. What's more the code is really clear when it comes to investigating simple layout like Padding or Aligment. Most important, it's just fun, so why not using flutter way to build UI in React.
 
-## Read Docs here: [I'm an inline-style link with title](https://react-fluttery-doc.netlify.com "Google's Homepage") 📚
+## [Read Docs here:](https://react-fluttery-doc.netlify.com "Google's Homepage") 📚
 
 ## Install
 
