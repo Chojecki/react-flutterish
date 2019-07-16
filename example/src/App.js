@@ -12,13 +12,10 @@ const Ch = [
 export default class App extends Component {
   render() {
     return (
-      <div style={{ backgroundColor: "cyan", width: 600, height: 600 }}>
-        <Column
-          children={Ch}
-          gap={30}
-          mainAxisAlignment="space-between"
-          crossAxisAlignment="flex-end"
-        />
+      <div style={{ backgroundColor: "papayawhip", width: 200, height: 200 }}>
+        <Center>
+          <Container />
+        </Center>
       </div>
     );
   }

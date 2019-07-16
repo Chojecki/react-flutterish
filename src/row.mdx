@@ -1,0 +1,30 @@
+---
+name: Row
+---
+
+import { Playground, Props } from "docz";
+import Row from "./Row";
+
+# Row
+
+## A Component that displays its children in a horizontal array.
+
+<Props of={Row} />
+
+## Basic usage
+
+<Playground>
+  <Row
+    children={[
+      <div style={{ backgroundColor: "red", width: 50, height: 50 }} />,
+      <div style={{ backgroundColor: "blue", width: 50, height: 50 }} />,
+      <div style={{ backgroundColor: "blue", width: 50, height: 50 }} />,
+      <div style={{ backgroundColor: "blue", width: 50, height: 50 }} />
+    ]}
+    gap={30}
+    mainAxisAlignment="space-between"
+    crossAxisAlignment="flex-start"
+  />
+</Playground>
+
+---
