@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Row = ({
+const Column = ({
   children,
   gap,
   mainAxisAlignment,
@@ -12,6 +12,7 @@ const Row = ({
     display: "flex",
     height: "100%",
     width: "100%",
+    flexDirection: "column",
     alignItems: crossAxisAlignment,
     justifyContent: mainAxisAlignment,
     overflow: overflow
@@ -21,7 +22,7 @@ const Row = ({
     return children.map((child, index) => (
       <div
         style={{
-          paddingRight: index == children.length - 1 ? 0 : gap,
+          paddingBottom: index == children.length - 1 ? 0 : gap,
           display: "flex"
         }}
       >
@@ -33,7 +34,7 @@ const Row = ({
   return <div style={style}>{children && _rengerItems()}</div>;
 };
 
-Row.propTypes = {
+Column.propTypes = {
   children: PropTypes.arrayOf(PropTypes.element),
   gap: PropTypes.number,
   mainAxisAlignment: PropTypes.oneOf([
@@ -53,4 +54,4 @@ Row.propTypes = {
   overflow: PropTypes.string
 };
 
-export default Row;
+export default Column;
