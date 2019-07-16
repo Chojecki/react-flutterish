@@ -12,41 +12,6 @@
   },
   "props": [
     {
-      "key": "src/Center.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Center",
-          "methods": [],
-          "actualName": "Center",
-          "props": {
-            "height": {
-              "type": {
-                "name": "number"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "0",
-                "computed": false
-              }
-            },
-            "width": {
-              "type": {
-                "name": "number"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "0",
-                "computed": false
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
       "key": "src/Column.js",
       "value": [
         {
@@ -353,9 +318,258 @@
           "actualName": "App"
         }
       ]
+    },
+    {
+      "key": "src/Center.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Center",
+          "methods": [],
+          "actualName": "Center",
+          "props": {
+            "height": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "\"100%\"",
+                "computed": false
+              }
+            },
+            "width": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "\"100%\"",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "dist/index.es.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Row",
+          "methods": [],
+          "actualName": "Row",
+          "props": {
+            "children": {
+              "type": {
+                "name": "arrayOf",
+                "value": {
+                  "name": "element"
+                }
+              },
+              "required": false,
+              "description": ""
+            },
+            "gap": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": ""
+            },
+            "mainAxisAlignment": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "\"flex-start\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"flex-end\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"center\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"space-between\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"space-around\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"space-evenly\"",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "crossAxisAlignment": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "\"stretch\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"flex-end\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"center\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"flex-start\"",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "overflow": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": ""
+            }
+          }
+        },
+        {
+          "description": "",
+          "displayName": "Column",
+          "methods": [],
+          "actualName": "Column",
+          "props": {
+            "children": {
+              "type": {
+                "name": "arrayOf",
+                "value": {
+                  "name": "element"
+                }
+              },
+              "required": false,
+              "description": ""
+            },
+            "gap": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": ""
+            },
+            "mainAxisAlignment": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "\"flex-start\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"flex-end\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"center\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"space-between\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"space-around\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"space-evenly\"",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "crossAxisAlignment": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "\"stretch\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"flex-end\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"center\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"flex-start\"",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "overflow": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": ""
+            }
+          }
+        }
+      ]
     }
   ],
   "entries": [
+    {
+      "key": "src/center.mdx",
+      "value": {
+        "name": "Center",
+        "id": "ce4ee245e4e8a02cd613470de3a3e836",
+        "filepath": "src/center.mdx",
+        "link": "https://github.com/Chojecki/react-flutterish/edit/master/src/center.mdx",
+        "slug": "src-center",
+        "route": "/src-center",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "center",
+            "depth": 1,
+            "value": "Center"
+          },
+          {
+            "slug": "a-component-that-centers-its-child-within-itself",
+            "depth": 2,
+            "value": "A Component that centers its child within itself."
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          }
+        ]
+      }
+    },
     {
       "key": "src/column.mdx",
       "value": {
@@ -371,6 +585,11 @@
             "slug": "column",
             "depth": 1,
             "value": "Column"
+          },
+          {
+            "slug": "a-component-that-displays-its-children-in-a-vertical-array",
+            "depth": 2,
+            "value": "A Component that displays its children in a vertical array."
           },
           {
             "slug": "basic-usage",
@@ -397,9 +616,43 @@
             "value": "Container"
           },
           {
+            "slug": "just-a-simple-container-to-easy-manipulate",
+            "depth": 2,
+            "value": "Just a simple container to easy manipulate"
+          },
+          {
             "slug": "basic-usage",
             "depth": 2,
             "value": "Basic usage"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/main.mdx",
+      "value": {
+        "name": "Home",
+        "route": "/",
+        "id": "19752b96df999f086ceebd1622121085",
+        "filepath": "src/main.mdx",
+        "link": "https://github.com/Chojecki/react-flutterish/edit/master/src/main.mdx",
+        "slug": "src-main",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "hi-and-welcome-in",
+            "depth": 1,
+            "value": "Hi and welcome in"
+          },
+          {
+            "slug": "this-mini-lib-is-heavily-inspired-by-flutter-dark-framework-but-for-react",
+            "depth": 3,
+            "value": "This mini lib is heavily inspired by Flutter Dark framework but for React."
+          },
+          {
+            "slug": "btw--f-ish",
+            "depth": 3,
+            "value": "BTW 🐠 (F-ish)"
           }
         ]
       }
@@ -419,6 +672,11 @@
             "slug": "padding",
             "depth": 1,
             "value": "Padding"
+          },
+          {
+            "slug": "a-componetn-that-insets-its-child-by-the-given-padding",
+            "depth": 2,
+            "value": "A Componetn that insets its child by the given padding."
           },
           {
             "slug": "basic-usage",
@@ -448,6 +706,11 @@
             "slug": "row",
             "depth": 1,
             "value": "Row"
+          },
+          {
+            "slug": "a-component-that-displays-its-children-in-a-horizontal-array",
+            "depth": 2,
+            "value": "A Component that displays its children in a horizontal array."
           },
           {
             "slug": "basic-usage",

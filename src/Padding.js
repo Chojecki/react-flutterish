@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-function isNumber(value) {
-  return typeof value === "number" && isFinite(value);
-}
-
 export default class Padding extends Component {
   static propTypes = {
     val: PropTypes.oneOfType([PropTypes.number, PropTypes.object])
@@ -12,8 +8,16 @@ export default class Padding extends Component {
 
   render() {
     const { val, children } = this.props;
-    const style = { padding: 0 };
+    const style =
+      typeof val === "number"
+        ? { padding: val }
+        : {
+            paddingTop: val.top,
+            paddingBottom: val.bottom,
+            paddingLeft: val.left,
+            paddingRight: val.right
+          };
 
-    return <div style={{ paddingTop: 20 }}>{children}</div>;
+    return <div style={style}>{children}</div>;
   }
 }

@@ -23,6 +23,6 @@ export default class Center extends Component {
 }
 
 Center.defaultProps = {
-  height: 0,
-  width: 0
+  height: "100%",
+  width: "100%"
 };

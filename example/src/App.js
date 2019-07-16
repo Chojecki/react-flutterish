@@ -12,15 +12,10 @@ const Ch = [
 export default class App extends Component {
   render() {
     return (
-      <div style={{ backgroundColor: "cyan", width: 600, height: 600 }}>
-        <Padding>
-          <Column
-            children={Ch}
-            // gap={30}
-            mainAxisAlignment="flex-start"
-            crossAxisAlignment="flex-start"
-          />
-        </Padding>
+      <div style={{ backgroundColor: "papayawhip", width: 200, height: 200 }}>
+        <Center>
+          <Container />
+        </Center>
       </div>
     );
   }
