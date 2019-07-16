@@ -14,6 +14,6 @@ export default class Padding extends Component {
     const { val, children } = this.props;
     const style = { padding: 0 };
 
-    return <div style={{ padding: 20 }}>{children}</div>;
+    return <div style={{ paddingTop: 20 }}>{children}</div>;
   }
 }
