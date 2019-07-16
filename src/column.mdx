@@ -1,0 +1,28 @@
+---
+name: Column
+---
+
+import { Playground, Props } from "docz";
+import Column from "./Column";
+
+# Column
+
+<Props of={Column} />
+
+## Basic usage
+
+<Playground>
+  <Column
+    children={[
+      <div style={{ backgroundColor: "red", width: 50, height: 50 }} />,
+      <div style={{ backgroundColor: "blue", width: 50, height: 50 }} />,
+      <div style={{ backgroundColor: "blue", width: 50, height: 50 }} />,
+      <div style={{ backgroundColor: "blue", width: 50, height: 50 }} />
+    ]}
+    gap={30}
+    mainAxisAlignment="space-between"
+    crossAxisAlignment="flex-start"
+  />
+</Playground>
+
+---

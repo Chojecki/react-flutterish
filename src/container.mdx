@@ -1,0 +1,26 @@
+---
+name: Container
+---
+
+import { Playground, Props } from "docz";
+import Container from "./Container";
+
+# Container
+
+<Props of={Container} />
+
+## Basic usage
+
+<Playground>
+  <Container
+    height={50}
+    width={50}
+    shadow={{
+      shadowColor: "#590E0E0E",
+      shadowOffset: { width: 2, height: 10 },
+      shadowRadius: 20
+    }}
+  />
+</Playground>
+
+---

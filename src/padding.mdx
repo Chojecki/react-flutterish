@@ -1,0 +1,49 @@
+---
+name: Padding
+---
+
+import { Playground, Props } from "docz";
+import Padding from "./Padding";
+import Container from "./Container";
+
+# Padding
+
+<Props of={Padding} />
+
+## Basic usage
+
+<Playground>
+  <div style={{ border: "solid" }}>
+    <Padding val={30}>
+      <Container
+        height={50}
+        width={50}
+        shadow={{
+          shadowColor: "#590E0E0E",
+          shadowOffset: { width: 2, height: 10 },
+          shadowRadius: 20
+        }}
+      />
+    </Padding>
+  </div>
+</Playground>
+
+## Basic with direction padding
+
+<Playground>
+  <div style={{ border: "solid" }}>
+    <Padding val={{ bottom: 20, left: 50 }}>
+      <Container
+        height={50}
+        width={50}
+        shadow={{
+          shadowColor: "#590E0E0E",
+          shadowOffset: { width: 2, height: 10 },
+          shadowRadius: 20
+        }}
+      />
+    </Padding>
+  </div>
+</Playground>
+
+---

@@ -37,14 +37,14 @@ export default class Container extends Component {
 }
 
 Container.defaultProps = {
-  height: 200,
-  width: 600,
+  height: 50,
+  width: 50,
   shadow: {
     shadowColor: "#590E0E0E",
     shadowOffset: { width: 2, height: 10 },
     shadowRadius: 20
   },
   padding: 0,
-  borderRadius: 0,
+  borderRadius: 10,
   backgroundColor: "lightGray"
 };
