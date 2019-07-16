@@ -357,30 +357,6 @@
   ],
   "entries": [
     {
-      "key": "src/container.mdx",
-      "value": {
-        "name": "Container",
-        "id": "1ef46000f6a7d1fe72c9aeffcf5bee73",
-        "filepath": "src/container.mdx",
-        "link": "https://github.com/Chojecki/react-flutterish/edit/master/src/container.mdx",
-        "slug": "src-container",
-        "route": "/src-container",
-        "menu": "",
-        "headings": [
-          {
-            "slug": "container",
-            "depth": 1,
-            "value": "Container"
-          },
-          {
-            "slug": "basic-usage",
-            "depth": 2,
-            "value": "Basic usage"
-          }
-        ]
-      }
-    },
-    {
       "key": "src/column.mdx",
       "value": {
         "name": "Column",
@@ -395,6 +371,30 @@
             "slug": "column",
             "depth": 1,
             "value": "Column"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/container.mdx",
+      "value": {
+        "name": "Container",
+        "id": "1ef46000f6a7d1fe72c9aeffcf5bee73",
+        "filepath": "src/container.mdx",
+        "link": "https://github.com/Chojecki/react-flutterish/edit/master/src/container.mdx",
+        "slug": "src-container",
+        "route": "/src-container",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "container",
+            "depth": 1,
+            "value": "Container"
           },
           {
             "slug": "basic-usage",
