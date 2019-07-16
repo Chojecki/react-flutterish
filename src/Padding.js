@@ -3,16 +3,21 @@ import PropTypes from "prop-types";
 
 export default class Padding extends Component {
   static propTypes = {
-    val: PropTypes.number || PropTypes.object
+    val: PropTypes.oneOfType([PropTypes.number, PropTypes.object])
   };
 
   render() {
     const { val, children } = this.props;
     const style =
       typeof val === "number"
-        ? val
-        : `${val.top}px ${val.right}px ${val.bottom}px ${val.left}px`;
+        ? { padding: val }
+        : {
+            paddingTop: val.top,
+            paddingBottom: val.bottom,
+            paddingLeft: val.left,
+            paddingRight: val.right
+          };
 
-    return <div style={{ padding: style }}>{children}</div>;
+    return <div style={style}>{children}</div>;
   }
 }

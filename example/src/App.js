@@ -1,14 +1,22 @@
 import React, { Component } from "react";
 
-import { Padding, Center } from "react-flutterish";
+import { Padding, Center, Container, Row, Column } from "react-flutterish";
+
+const Ch = [
+  <div style={{ backgroundColor: "red", width: 50, height: 50 }} />,
+  <div style={{ backgroundColor: "blue", width: 50, height: 50 }} />,
+  <div style={{ backgroundColor: "blue", width: 50, height: 50 }} />,
+  <div style={{ backgroundColor: "blue", width: 50, height: 50 }} />
+];
 
 export default class App extends Component {
   render() {
     return (
-      <Center>
-        {/* <Padding val={20}>Modern React component module</Padding> */}
-        <div style={{ height: 300, width: 300, backgroundColor: "red" }} />
-      </Center>
+      <div style={{ backgroundColor: "papayawhip", width: 200, height: 200 }}>
+        <Center>
+          <Container />
+        </Center>
+      </div>
     );
   }
 }

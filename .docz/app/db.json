@@ -1,0 +1,724 @@
+{
+  "config": {
+    "title": "React Flutterish",
+    "description": "a react-based lib to create quick ui in flutterish way",
+    "menu": [],
+    "version": "1.0.0",
+    "repository": "https://github.com/Chojecki/react-flutterish",
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "props": [
+    {
+      "key": "src/Column.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Column",
+          "methods": [],
+          "actualName": "Column",
+          "props": {
+            "children": {
+              "type": {
+                "name": "arrayOf",
+                "value": {
+                  "name": "element"
+                }
+              },
+              "required": false,
+              "description": ""
+            },
+            "gap": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": ""
+            },
+            "mainAxisAlignment": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "\"flex-start\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"flex-end\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"center\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"space-between\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"space-around\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"space-evenly\"",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "crossAxisAlignment": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "\"stretch\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"flex-end\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"center\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"flex-start\"",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "overflow": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/Container.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Container",
+          "methods": [],
+          "actualName": "Container",
+          "props": {
+            "height": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "50",
+                "computed": false
+              }
+            },
+            "width": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "50",
+                "computed": false
+              }
+            },
+            "backgroundColor": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "\"lightGray\"",
+                "computed": false
+              }
+            },
+            "borderRadius": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "10",
+                "computed": false
+              }
+            },
+            "shadow": {
+              "type": {
+                "name": "object"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "{\n  shadowColor: \"#590E0E0E\",\n  shadowOffset: { width: 2, height: 10 },\n  shadowRadius: 20\n}",
+                "computed": false
+              }
+            },
+            "padding": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "0",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/Padding.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Padding",
+          "methods": [],
+          "actualName": "Padding",
+          "props": {
+            "val": {
+              "type": {
+                "name": "union",
+                "value": [
+                  {
+                    "name": "number"
+                  },
+                  {
+                    "name": "object"
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/Row.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Row",
+          "methods": [],
+          "actualName": "Row",
+          "props": {
+            "children": {
+              "type": {
+                "name": "arrayOf",
+                "value": {
+                  "name": "element"
+                }
+              },
+              "required": false,
+              "description": ""
+            },
+            "gap": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": ""
+            },
+            "mainAxisAlignment": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "\"flex-start\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"flex-end\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"center\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"space-between\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"space-around\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"space-evenly\"",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "crossAxisAlignment": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "\"stretch\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"flex-end\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"center\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"flex-start\"",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "overflow": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "example/src/App.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "App",
+          "methods": [],
+          "actualName": "App"
+        }
+      ]
+    },
+    {
+      "key": "src/Center.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Center",
+          "methods": [],
+          "actualName": "Center",
+          "props": {
+            "height": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "\"100%\"",
+                "computed": false
+              }
+            },
+            "width": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "\"100%\"",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "dist/index.es.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Row",
+          "methods": [],
+          "actualName": "Row",
+          "props": {
+            "children": {
+              "type": {
+                "name": "arrayOf",
+                "value": {
+                  "name": "element"
+                }
+              },
+              "required": false,
+              "description": ""
+            },
+            "gap": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": ""
+            },
+            "mainAxisAlignment": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "\"flex-start\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"flex-end\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"center\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"space-between\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"space-around\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"space-evenly\"",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "crossAxisAlignment": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "\"stretch\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"flex-end\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"center\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"flex-start\"",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "overflow": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": ""
+            }
+          }
+        },
+        {
+          "description": "",
+          "displayName": "Column",
+          "methods": [],
+          "actualName": "Column",
+          "props": {
+            "children": {
+              "type": {
+                "name": "arrayOf",
+                "value": {
+                  "name": "element"
+                }
+              },
+              "required": false,
+              "description": ""
+            },
+            "gap": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": ""
+            },
+            "mainAxisAlignment": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "\"flex-start\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"flex-end\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"center\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"space-between\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"space-around\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"space-evenly\"",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "crossAxisAlignment": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "\"stretch\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"flex-end\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"center\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"flex-start\"",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "overflow": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": ""
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "key": "src/center.mdx",
+      "value": {
+        "name": "Center",
+        "id": "ce4ee245e4e8a02cd613470de3a3e836",
+        "filepath": "src/center.mdx",
+        "link": "https://github.com/Chojecki/react-flutterish/edit/master/src/center.mdx",
+        "slug": "src-center",
+        "route": "/src-center",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "center",
+            "depth": 1,
+            "value": "Center"
+          },
+          {
+            "slug": "a-component-that-centers-its-child-within-itself",
+            "depth": 2,
+            "value": "A Component that centers its child within itself."
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/column.mdx",
+      "value": {
+        "name": "Column",
+        "id": "1143a2cd2200bc6c7eeb78d9a7a55779",
+        "filepath": "src/column.mdx",
+        "link": "https://github.com/Chojecki/react-flutterish/edit/master/src/column.mdx",
+        "slug": "src-column",
+        "route": "/src-column",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "column",
+            "depth": 1,
+            "value": "Column"
+          },
+          {
+            "slug": "a-component-that-displays-its-children-in-a-vertical-array",
+            "depth": 2,
+            "value": "A Component that displays its children in a vertical array."
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/container.mdx",
+      "value": {
+        "name": "Container",
+        "id": "1ef46000f6a7d1fe72c9aeffcf5bee73",
+        "filepath": "src/container.mdx",
+        "link": "https://github.com/Chojecki/react-flutterish/edit/master/src/container.mdx",
+        "slug": "src-container",
+        "route": "/src-container",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "container",
+            "depth": 1,
+            "value": "Container"
+          },
+          {
+            "slug": "just-a-simple-container-to-easy-manipulate",
+            "depth": 2,
+            "value": "Just a simple container to easy manipulate"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/main.mdx",
+      "value": {
+        "name": "Home",
+        "route": "/",
+        "id": "19752b96df999f086ceebd1622121085",
+        "filepath": "src/main.mdx",
+        "link": "https://github.com/Chojecki/react-flutterish/edit/master/src/main.mdx",
+        "slug": "src-main",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "hi-and-welcome-in",
+            "depth": 1,
+            "value": "Hi and welcome in"
+          },
+          {
+            "slug": "this-mini-lib-is-heavily-inspired-by-flutter-dark-framework-but-for-react",
+            "depth": 3,
+            "value": "This mini lib is heavily inspired by Flutter Dark framework but for React."
+          },
+          {
+            "slug": "btw--f-ish",
+            "depth": 3,
+            "value": "BTW 🐠 (F-ish)"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/padding.mdx",
+      "value": {
+        "name": "Padding",
+        "id": "6f14e743236d066cb482ec9095fd911c",
+        "filepath": "src/padding.mdx",
+        "link": "https://github.com/Chojecki/react-flutterish/edit/master/src/padding.mdx",
+        "slug": "src-padding",
+        "route": "/src-padding",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "padding",
+            "depth": 1,
+            "value": "Padding"
+          },
+          {
+            "slug": "a-componetn-that-insets-its-child-by-the-given-padding",
+            "depth": 2,
+            "value": "A Componetn that insets its child by the given padding."
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          },
+          {
+            "slug": "basic-with-direction-padding",
+            "depth": 2,
+            "value": "Basic with direction padding"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/row.mdx",
+      "value": {
+        "name": "Row",
+        "id": "092e1c8e1025fc8ae4da2d5f0af7225d",
+        "filepath": "src/row.mdx",
+        "link": "https://github.com/Chojecki/react-flutterish/edit/master/src/row.mdx",
+        "slug": "src-row",
+        "route": "/src-row",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "row",
+            "depth": 1,
+            "value": "Row"
+          },
+          {
+            "slug": "a-component-that-displays-its-children-in-a-horizontal-array",
+            "depth": 2,
+            "value": "A Component that displays its children in a horizontal array."
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          }
+        ]
+      }
+    }
+  ]
+}
