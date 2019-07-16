@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export default class Padding extends Component {
   static propTypes = {
-    val: PropTypes.number || PropTypes.object
+    val: PropTypes.oneOfType([PropTypes.number, PropTypes.object])
   };
 
   render() {

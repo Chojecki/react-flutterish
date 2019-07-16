@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 
 export default class Center extends Component {
   static propTypes = {
-    height: PropTypes.number,
-    width: PropTypes.number
+    height: PropTypes.number.isRequired,
+    width: PropTypes.number.isRequired
   };
 
   render() {
