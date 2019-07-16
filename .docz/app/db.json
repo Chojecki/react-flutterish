@@ -40,6 +40,52 @@
       ]
     },
     {
+      "key": "src/Center.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Center",
+          "methods": [],
+          "actualName": "Center",
+          "props": {
+            "height": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "0",
+                "computed": false
+              }
+            },
+            "width": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "0",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "example/src/App.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "App",
+          "methods": [],
+          "actualName": "App"
+        }
+      ]
+    },
+    {
       "key": "dist/index.es.js",
       "value": [
         {
@@ -221,52 +267,6 @@
               "description": ""
             }
           }
-        }
-      ]
-    },
-    {
-      "key": "src/Center.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Center",
-          "methods": [],
-          "actualName": "Center",
-          "props": {
-            "height": {
-              "type": {
-                "name": "number"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "0",
-                "computed": false
-              }
-            },
-            "width": {
-              "type": {
-                "name": "number"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "0",
-                "computed": false
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
-      "key": "example/src/App.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "App",
-          "methods": [],
-          "actualName": "App"
         }
       ]
     }
