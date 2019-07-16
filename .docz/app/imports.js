@@ -1,11 +1,11 @@
 export const imports = {
-  'src/column.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "src-column" */ 'src/column.mdx'
-    ),
   'src/container.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "src-container" */ 'src/container.mdx'
+    ),
+  'src/column.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "src-column" */ 'src/column.mdx'
     ),
   'src/padding.mdx': () =>
     import(

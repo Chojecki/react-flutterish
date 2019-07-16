@@ -142,6 +142,113 @@
       ]
     },
     {
+      "key": "src/Container.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Container",
+          "methods": [],
+          "actualName": "Container",
+          "props": {
+            "height": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "50",
+                "computed": false
+              }
+            },
+            "width": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "50",
+                "computed": false
+              }
+            },
+            "backgroundColor": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "\"lightGray\"",
+                "computed": false
+              }
+            },
+            "borderRadius": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "10",
+                "computed": false
+              }
+            },
+            "shadow": {
+              "type": {
+                "name": "object"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "{\n  shadowColor: \"#590E0E0E\",\n  shadowOffset: { width: 2, height: 10 },\n  shadowRadius: 20\n}",
+                "computed": false
+              }
+            },
+            "padding": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "0",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/Padding.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Padding",
+          "methods": [],
+          "actualName": "Padding",
+          "props": {
+            "val": {
+              "type": {
+                "name": "union",
+                "value": [
+                  {
+                    "name": "number"
+                  },
+                  {
+                    "name": "object"
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
       "key": "src/Row.js",
       "value": [
         {
@@ -237,85 +344,6 @@
       ]
     },
     {
-      "key": "src/Container.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Container",
-          "methods": [],
-          "actualName": "Container",
-          "props": {
-            "height": {
-              "type": {
-                "name": "number"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "50",
-                "computed": false
-              }
-            },
-            "width": {
-              "type": {
-                "name": "number"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "50",
-                "computed": false
-              }
-            },
-            "backgroundColor": {
-              "type": {
-                "name": "string"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "\"lightGray\"",
-                "computed": false
-              }
-            },
-            "borderRadius": {
-              "type": {
-                "name": "number"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "10",
-                "computed": false
-              }
-            },
-            "shadow": {
-              "type": {
-                "name": "object"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "{\n  shadowColor: \"#590E0E0E\",\n  shadowOffset: { width: 2, height: 10 },\n  shadowRadius: 20\n}",
-                "computed": false
-              }
-            },
-            "padding": {
-              "type": {
-                "name": "number"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "0",
-                "computed": false
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
       "key": "example/src/App.js",
       "value": [
         {
@@ -325,246 +353,9 @@
           "actualName": "App"
         }
       ]
-    },
-    {
-      "key": "src/Padding.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Padding",
-          "methods": [],
-          "actualName": "Padding",
-          "props": {
-            "val": {
-              "type": {
-                "name": "union",
-                "value": [
-                  {
-                    "name": "number"
-                  },
-                  {
-                    "name": "object"
-                  }
-                ]
-              },
-              "required": false,
-              "description": ""
-            }
-          }
-        }
-      ]
-    },
-    {
-      "key": "dist/index.es.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Row",
-          "methods": [],
-          "actualName": "Row",
-          "props": {
-            "children": {
-              "type": {
-                "name": "arrayOf",
-                "value": {
-                  "name": "element"
-                }
-              },
-              "required": false,
-              "description": ""
-            },
-            "gap": {
-              "type": {
-                "name": "number"
-              },
-              "required": false,
-              "description": ""
-            },
-            "mainAxisAlignment": {
-              "type": {
-                "name": "enum",
-                "value": [
-                  {
-                    "value": "\"flex-start\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"flex-end\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"center\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"space-between\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"space-around\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"space-evenly\"",
-                    "computed": false
-                  }
-                ]
-              },
-              "required": false,
-              "description": ""
-            },
-            "crossAxisAlignment": {
-              "type": {
-                "name": "enum",
-                "value": [
-                  {
-                    "value": "\"stretch\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"flex-end\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"center\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"flex-start\"",
-                    "computed": false
-                  }
-                ]
-              },
-              "required": false,
-              "description": ""
-            },
-            "overflow": {
-              "type": {
-                "name": "string"
-              },
-              "required": false,
-              "description": ""
-            }
-          }
-        },
-        {
-          "description": "",
-          "displayName": "Column",
-          "methods": [],
-          "actualName": "Column",
-          "props": {
-            "children": {
-              "type": {
-                "name": "arrayOf",
-                "value": {
-                  "name": "element"
-                }
-              },
-              "required": false,
-              "description": ""
-            },
-            "gap": {
-              "type": {
-                "name": "number"
-              },
-              "required": false,
-              "description": ""
-            },
-            "mainAxisAlignment": {
-              "type": {
-                "name": "enum",
-                "value": [
-                  {
-                    "value": "\"flex-start\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"flex-end\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"center\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"space-between\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"space-around\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"space-evenly\"",
-                    "computed": false
-                  }
-                ]
-              },
-              "required": false,
-              "description": ""
-            },
-            "crossAxisAlignment": {
-              "type": {
-                "name": "enum",
-                "value": [
-                  {
-                    "value": "\"stretch\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"flex-end\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"center\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"flex-start\"",
-                    "computed": false
-                  }
-                ]
-              },
-              "required": false,
-              "description": ""
-            },
-            "overflow": {
-              "type": {
-                "name": "string"
-              },
-              "required": false,
-              "description": ""
-            }
-          }
-        }
-      ]
     }
   ],
   "entries": [
-    {
-      "key": "src/column.mdx",
-      "value": {
-        "name": "Column",
-        "id": "1143a2cd2200bc6c7eeb78d9a7a55779",
-        "filepath": "src/column.mdx",
-        "link": "https://github.com/Chojecki/react-flutterish/edit/master/src/column.mdx",
-        "slug": "src-column",
-        "route": "/src-column",
-        "menu": "",
-        "headings": [
-          {
-            "slug": "column",
-            "depth": 1,
-            "value": "Column"
-          },
-          {
-            "slug": "basic-usage",
-            "depth": 2,
-            "value": "Basic usage"
-          }
-        ]
-      }
-    },
     {
       "key": "src/container.mdx",
       "value": {
@@ -580,6 +371,30 @@
             "slug": "container",
             "depth": 1,
             "value": "Container"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/column.mdx",
+      "value": {
+        "name": "Column",
+        "id": "1143a2cd2200bc6c7eeb78d9a7a55779",
+        "filepath": "src/column.mdx",
+        "link": "https://github.com/Chojecki/react-flutterish/edit/master/src/column.mdx",
+        "slug": "src-column",
+        "route": "/src-column",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "column",
+            "depth": 1,
+            "value": "Column"
           },
           {
             "slug": "basic-usage",
